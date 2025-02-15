@@ -9,8 +9,6 @@ return {
           italic = false,
         },
       })
-
-      vim.cmd.colorscheme("rose-pine-moon")
     end,
   },
   {
@@ -63,5 +61,12 @@ return {
 
       require("kanagawa").load("wave")
     end,
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      -- colorscheme = "kanagawa",
+      colorscheme = "rose-pine",
+    },
   },
 }
